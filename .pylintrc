@@ -8,7 +8,8 @@ disable=
       C0209, # Consider-using-f-string
       C0321, # Multiple-statement
       W0221, # Argument-differ
-      R0801, #Duplicate-code
+      R0801, # Duplicate-code
+      R0903, # Too few public methods
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
