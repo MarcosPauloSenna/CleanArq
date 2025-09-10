@@ -11,4 +11,4 @@ class UsersRepositoriyInterface(ABC):
 
 
     @abstractmethod
-    def select_user(cls, fist_name: str) -> List[Users]: pass 
+    def select_user(cls, first_name: str) -> List[Users]: pass
